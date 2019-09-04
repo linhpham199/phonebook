@@ -46,7 +46,7 @@ const App = () => {
     <div>
       <h2>Phonebook</h2>
       <Filter persons={persons} setFilteredPersons={setFilteredPersons} />
-      <h2>Add a new</h2> 
+      <h2>Add a new number</h2> 
       <PersonForm addPerson={person => addPerson(person)}/>
       <h2>Numbers</h2>
       <ul style={{listStyleType: 'none'}}>
